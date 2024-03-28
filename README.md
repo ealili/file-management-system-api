@@ -2,11 +2,12 @@
 
 #### API's intented use:
 - Retrieve .pdf files from a given directory
+- Start watching for file creations (start processing every newly uploaded file)
 - Store file information as a record in a sql database
 - Marks the file status as "Imported"
 - Move them in a given (destination) directory
 - Upon successful move, the file status gets updated to "Moved"
-- Powers Vue [frontend](https://github.com/ealili/file-managenemt-system-frontend) which provides a nice user interface where the user can log in and view the imported/moved files, and have the power to update the file status as desired.
+- Powers Vue [frontend](https://github.com/ealili/file-management-system-frontend) which provides a nice user interface where the user can log in and view the imported/moved files, and have the power to update the file status as desired.
 
 ##### Additional features:
 - Provides JWT authentication
